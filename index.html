@@ -3,12 +3,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <script src="script.js"></script>
+     <link rel="stylesheet" href="style.css">
+     <script src="scripts/calc.js"></script> 
 </head>
 <body>
-    <h1>Calculadora</h1>
-   
+     <header>Calculadora</header> 
 
+     <div class="square">
+    <div class="i"> 
+    <h4 for="numero1">Algarismo 1</h4> 
+    <input type="number" id="numero1"><br> 
+     <h4 for="numero2">Algarismo 2</h4>
+     <input type="number" id="numero2"><br>
+     <br>
+     <button onclick="somar()">soma</button> 
+     <button onclick="subtrair()">subtração</button> 
+     <button onclick="multiplicar()">multiplicação</button>
+     <button onclick="dividir()">divisão</button>
+     <p id="resultado">Resultado: </p>
+     </div>
+ </div> 
 
-</body>
+</body> 
 </html>
