@@ -1,37 +1,37 @@
 function somar(){
- let valor1 = Number(document.getElementById("numero1").value); 
- let valor2 = Number(document.getElementById("numero2").value);
- let resultado = valor1 + valor2;
+ let v1 = Number(document.getElementById("n1").valor); 
+ let v2 = Number(document.getElementById("n2").valor);
+ let result = v1 + v2;
 
-document.getElementById("resultado").innerText = "RESULTADO: " + resultado;
+document.getElementById("resultado").innerText = "RESULT: " + result;
 }
 
 function subtrair(){
-    let valor1 = Number(document.getElementById("numero1").value);
-    let valor2 = Number(document.getElementById("numero2").value);
-    let resultado = valor1 - valor2;
+    let v1 = Number(document.getElementById("n1").valor);
+    let v2 = Number(document.getElementById("n2").valor);
+    let result = v1 - v2;
 
-    document.getElementById("resultado").innerText = "RESULTADO: " + resultado;
+    document.getElementById("result").innerText = "RESULT: " + result;
 }
 
 function multiplicar(){
-    let valor1 = Number(document.getElementById("numero1").value);
-    let valor2 = Number(document.getElementById("numero2").value);
-    let resultado = valor1 * valor2;
+    let v1 = Number(document.getElementById("n1").valor);
+    let v2 = Number(document.getElementById("n2").valor);
+    let result = v1 * v2;
 
-    document.getElementById("resultado").innerText = "RESULTADO: " + resultado;
+    document.getElementById("result").innerText = "RESULT: " + result;
 }
 
 function dividir(){
-    let valor1 = Number(document.getElementById("numero1").value);
-    let valor2 = Number(document.getElementById("numero2").value);
-    let resultado;
+    let v1 = Number(document.getElementById("n1").valor);
+    let v2 = Number(document.getElementById("n2").valor);
+    let result;
 
-    if (valor2 === 0){
-        resultado = "Não pode dividir por zero!";
+    if (v2 === 0){
+        result = "Não pode dividir por zero!";
     } else {
-        resultado = valor1 / valor2;
+        result = v1 / v2;
     }
 
-    document.getElementById("resultado").innerText = "RESULTADO: " + resultado;
+    document.getElementById("result").innerText = "RESULT: " + result;
 }
